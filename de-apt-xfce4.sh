@@ -9,7 +9,7 @@ apt-get clean
 mkdir ~/.vnc
 wget https://raw.githubusercontent.com/harsh7i/mydocs/main/xstartup -P ~.vnc/
 wget https://raw.githubusercontent.com/harsh7i/mydocs/main/vncserver-start -P ../usr/bin/
-wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/vncserver-stop -P /usr/bin/
+wget https://raw.githubusercontent.com/harsh7i/mydocs/main/vncserver-stop -P /usr/bin/
 
 chmod +x ~/.vnc/xstartup
 chmod +x ../usr/bin/vncserver-start
