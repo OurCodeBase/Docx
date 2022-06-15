@@ -12,8 +12,8 @@ wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/D
 wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/DesktopEnvironment/Apt/Xfce4/vncserver-stop -P /usr/local/bin/
 
 chmod +x ~/.vnc/xstartup
-chmod +x ../usr/local/bin/vncserver-start
-chmod +x ../usr/local/bin/vncserver-stop
+chmod +x ../usr/bin/vncserver-start
+chmod +x ../usr/bin/vncserver-stop
 
 echo " "
 echo "You can now start vncserver by running vncserver-start"
