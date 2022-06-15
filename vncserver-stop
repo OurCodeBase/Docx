@@ -1,0 +1,6 @@
+export USER=root
+export HOME=/root
+
+vncserver -kill :1
+rm -rf ../usr/tmp/.X1-lock
+rm -rf ../usr/tmp/.X11-unix/X1
