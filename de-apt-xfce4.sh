@@ -7,7 +7,7 @@ apt-get clean
 
 #Setup the necessary files
 mkdir .vnc
-wget https://raw.githubusercontent.com/harsh7i/mydocs/main/xstartup -P ~.vnc/
+wget https://raw.githubusercontent.com/harsh7i/mydocs/main/xstartup -P .vnc/
 wget https://raw.githubusercontent.com/harsh7i/mydocs/main/vncserver-start -P ../usr/bin/
 wget https://raw.githubusercontent.com/harsh7i/mydocs/main/vncserver-stop -P ../usr/bin/
 
