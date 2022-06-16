@@ -1,8 +1,2 @@
 #!/data/data/com.termux/files/usr/bin/sh
-## Fluxbox desktop.
-
-# Generate menu.
-fluxbox-generate_menu
-
-# Start fluxbox.
-fluxbox &
+xfce4-session &
