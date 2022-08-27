@@ -16,8 +16,10 @@ This documentation helps you to install `xfce4` based ``kali linux`` gui for you
 sudo clear && sudo apt update && sudo apt install tigervnc-standalone-server udisks2 xfce4 tilda dbus-x11 -y
 ```
 <hr />
+
 It may take too much time.
-After sometime it will ask you for `keyboard-layout`
+After sometime it will ask you for Keyboard Layout.
+
 <hr />
 <img src="assets/keyboard-layout.jpg">
 
