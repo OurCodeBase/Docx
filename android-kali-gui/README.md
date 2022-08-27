@@ -13,7 +13,8 @@ This documentation helps you to install `xfce4` based `kali linux` gui for your 
 
 #### Commands !
 
-Follow These Steps
+* Follow These Steps
+* Don't use commands manually just copy and paste to save time.
 
 ```shell
 sudo clear && sudo apt update && sudo apt install tigervnc-standalone-server udisks2 xfce4 tilda dbus-x11 -y
