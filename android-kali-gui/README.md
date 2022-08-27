@@ -4,6 +4,12 @@ This documentation helps you to install `xfce4` based `kali linux` gui for your 
 <hr />
 <img src="assets/kali-linux.jpg">
 
+#### Upcoming Features
+* Reduces app size
+* Remove useless apps
+* Fast user experience
+* Beautiful looking UI
+
 #### Requirements !
 * A `kali linux` installed on your terminal emulator.
 * Your `kali linux` should be rooted. If you don't have root, use `su` command and then use a `cd` command to go at home directory.
