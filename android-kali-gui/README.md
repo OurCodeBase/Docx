@@ -28,18 +28,18 @@ Simply `enter` `1` in it and hit the `enter` button.
 
 <hr />
 
-Next Commands
+* Next Commands
 
 If you want to run `kali linux` on a large display you can use this command or you can try that second one.
 
 
-For Large Display
+* For Large Display
 
 ``` shell
 sudo rm /var/lib/dpkg/info/udisks2.postinst && sudo echo "" >> /var/lib/dpkg/info/udisks2.postinst && sudo dpkg --configure -a && sudo apt-mark hold udisks2 && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/full-hd-screen/vncstart && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/full-hd-screen/vncstop && mv vncst* /usr/bin && chmod +x /usr/bin/vncst*
 ```
 
-For Small Display
+* For Small Display
 ```shell
 sudo rm /var/lib/dpkg/info/udisks2.postinst && sudo echo "" >> /var/lib/dpkg/info/udisks2.postinst && sudo dpkg --configure -a && sudo apt-mark hold udisks2 && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/hd-screen/vncstart && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/hd-screen/vncstop && mv vncst* /usr/bin && chmod +x /usr/bin/vncst*
 ```
@@ -52,4 +52,5 @@ I hope you understand how to use vnc viewer app. If not i will make a tutorial f
 * Don't use `vncstart` or `vncstop` command twice.
 * First use `vncstart` command and then `vncstop`.
 * Always use `vncstop` command after using `kali linux` gui.
+
 Otherwise these shortcut commands couldn't work.
