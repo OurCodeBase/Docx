@@ -11,7 +11,7 @@ This documentation helps you to install `xfce4` based ``kali linux`` gui for you
 * Good Internet Connection obviously.
 * Free Time
 
-#### Commands
+#### Commands !
 ```shell
-sudo apt update && 
+sudo clear && sudo apt update && sudo apt install tigervnc-standalone-server udisks2 xfce4 tilda dbus-x11 -y
 ```
