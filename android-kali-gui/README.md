@@ -53,4 +53,4 @@ I hope you understand how to use vnc viewer app. If not i will make a tutorial f
 * First use `vncstart` command and then `vncstop`.
 * Always use `vncstop` command after using `kali linux` gui.
 
-Otherwise these shortcut commands couldn't work.
+Otherwise these shortcut commands will not work.
