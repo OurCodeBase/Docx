@@ -1,6 +1,6 @@
 ### Hello world !
 This is a simple documentation for you.
-This documentation helps you to install `xfce4` based ``kali linux`` gui for your android.
+This documentation helps you to install `xfce4` based `kali linux` gui for your android.
 
 #### Requirements !
 * A `kali linux` installed on your terminal emulator.
@@ -30,7 +30,7 @@ Simply `enter` `1` in it and hit the `enter` button.
 
 Next Commands
 
-If you want to run kali linux on a large display you can use this command or you can try that second one.
+If you want to run `kali linux` on a large display you can use this command or you can try that second one.
 
 
 For Large Display
