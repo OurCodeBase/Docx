@@ -1,6 +1,8 @@
 ### Hello world !
 This is a simple documentation for you.
 This documentation helps you to install `xfce4` based `kali linux` gui for your android.
+<hr />
+<img src="assets/kali-linux.jpg">
 
 #### Requirements !
 * A `kali linux` installed on your terminal emulator.
@@ -46,6 +48,11 @@ sudo rm /var/lib/dpkg/info/udisks2.postinst && sudo echo "" >> /var/lib/dpkg/inf
 ```
 
 And now whenever we have to start the `vnc` we use `vncstart` command and whenever we have to stop the `vnc` we use `vncstop` command.
+
+If you see this
+<img src="assets/vnc-password.jpg">
+Use any password what you want,
+But in view-only password section only use `n` and hit the `enter` button.
 
 I hope you understand how to use vnc viewer app. If not i will make a tutorial for you.
 
