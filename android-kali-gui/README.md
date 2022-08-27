@@ -47,3 +47,9 @@ sudo rm /var/lib/dpkg/info/udisks2.postinst && sudo echo "" >> /var/lib/dpkg/inf
 And now whenever we have to start the `vnc` we use `vncstart` command and whenever we have to stop the `vnc` we use `vncstop` command.
 
 I hope you understand how to use vnc viewer app. If not i will make a tutorial for you.
+
+#### Warning !
+* Don't use `vncstart` or `vncstop` command twice.
+* First use `vncstart` command and then `vncstop`.
+* Always use `vncstop` command after using `kali linux` gui.
+Otherwise these shortcut commands couldn't work.
