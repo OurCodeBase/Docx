@@ -57,7 +57,7 @@ And now whenever we have to start the `vnc` we use `vncstart` command and whenev
 If you see this
 <img src="assets/vnc-password.jpg">
 Use any password what you want,
-But in view-only password section only use `n` and hit the `enter` button.
+But in `view-only` password section only use `n` and hit the `enter` button.
 
 I hope you understand how to use vnc viewer app. If not i will make a tutorial for you.
 
