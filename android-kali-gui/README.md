@@ -19,6 +19,7 @@ sudo clear && sudo apt update && sudo apt install tigervnc-standalone-server udi
 It may take too much time.
 After sometime it will ask you for `Keyboard Layout`.
 
+
 <img src="assets/keyboard-layout.jpg">
 
-Simply enter `1` in it.
+Simply enter `1` in it and hit the enter button.
