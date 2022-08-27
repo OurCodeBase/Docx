@@ -1,1 +1,1 @@
-vncserver -geometry 1920x1080 -xstartup /usr/bin/xfce4-session >> /dev/null && echo -e "\e[0;32m[+] Server successfully started. \e[0;m"
+vncserver -geometry 1920x1080 -xstartup /usr/bin/xfce4-session >> /dev/null && echo "" && echo -e "\e[0;32m[+] Server successfully running  \e[0;m" && echo ""
