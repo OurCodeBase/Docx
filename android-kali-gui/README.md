@@ -26,6 +26,8 @@ After sometime it will ask you for Keyboard Layout.
 
 Simply `enter` `1` in it and hit the `enter` button.
 
+<hr />
+
 ``` shell
 sudo rm /var/lib/dpkg/info/udisks2.postinst && sudo echo "" >> /var/lib/dpkg/info/udisks2.postinst && sudo dpkg --configure -a && sudo apt-mark hold udisks2
 ```
