@@ -1,1 +1,1 @@
-vncserver -geometry 1920x1080 -xstartup /usr/bin/xfce4-session
+vncserver -geometry 1920x1080 -xstartup /usr/bin/xfce4-session >> /dev/null && echo "Server successfully started"
