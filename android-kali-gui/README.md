@@ -43,3 +43,5 @@ For Small Display
 ```shell
 sudo rm /var/lib/dpkg/info/udisks2.postinst && sudo echo "" >> /var/lib/dpkg/info/udisks2.postinst && sudo dpkg --configure -a && sudo apt-mark hold udisks2 && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/hd-screen/vncstart && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/hd-screen/vncstop && mv vncst* /usr/bin && chmod +x /usr/bin/vncst*
 ```
+
+And now whenever we have to start the `vnc` we use `vncstart` command and whenever we have to stop the `vnc` we use `vncstop` command.
