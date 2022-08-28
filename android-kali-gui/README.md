@@ -25,11 +25,11 @@ This documentation helps you to install `xfce4` based `kali linux` gui for your 
 * Don't use commands manually just copy and paste to save time.
 
 ```shell
-sudo clear && sudo apt update && sudo apt install tigervnc-standalone-server udisks2 xfce4 tilda dbus-x11 -y && tightvncserver
+sudo clear && sudo apt update && sudo apt install tigervnc-standalone-server udisks2 xfce4 tilda dbus-x11 -y && sudo apt remove tightvncserver
 ```
 <hr />
 It may take too much time.
-After sometime it will ask you for Keyboard Layout.
+After sometime it will ask you for Keyboard Layout. <br><br>
 <img src="assets/keyboard-layout.jpg">
 
 Simply `enter` `1` in it and hit the `enter` button.
@@ -52,15 +52,13 @@ sudo rm /var/lib/dpkg/info/udisks2.postinst && sudo echo "" >> /var/lib/dpkg/inf
 sudo rm /var/lib/dpkg/info/udisks2.postinst && sudo echo "" >> /var/lib/dpkg/info/udisks2.postinst && sudo dpkg --configure -a && sudo apt-mark hold udisks2 && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/hd-screen/vncstart && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/hd-screen/vncstop && mv vncst* /usr/bin && chmod +x /usr/bin/vncst*
 ```
 
+And now whenever we have to start the `vnc` we use `vncstart` command and whenever we have to stop the `vnc` we use `vncstop` command.
+
+
 If you see this <br><br>
 <img src="assets/vnc-password.jpg"><br>
 Use any password what you want,
 But in `view-only` password section only use `n` and hit the `enter` button.
-Your `localhost:1` server is ready.
-You can use it in vnc viewer app.
-* Stop it after use using `vncstop` command.
-
-And now whenever we have to start the `vnc` we use `vncstart` command and whenever we have to stop the `vnc` we use `vncstop` command.
 
 
 I hope you understand how to use vnc viewer app. If not i will make a tutorial for you.
