@@ -5,3 +5,4 @@
 ### Upcoming
 * android-ubuntu-gui
 * Documentations for python
+* fluxbox - window manager
