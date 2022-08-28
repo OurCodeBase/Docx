@@ -1,4 +1,0 @@
-export USER=admin
-export HOME=$HOME
-
-vncserver -geometry 1024x768 -depth 24 -name remote-desktop :1
