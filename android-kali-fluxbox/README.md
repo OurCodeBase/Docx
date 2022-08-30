@@ -30,6 +30,14 @@ curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-fluxbo
 and then you can run the script using `sh install.sh` or `./install.sh`.
 Now you're ready to start `vnc` using `vncstart` command.
 
+If you see this <br><br>
+<img src="https://github.com/harsh7i/Docx/blob/70596062e12361a5d564e06bff551db2a7c577d6/android-kali-gui/assets/vnc-password.jpg"><br>
+Use any password what you want,
+But in `view-only` password section only use `n` and hit the `enter` button.
+
+
+I hope you understand how to use vnc viewer app. If not i will make a tutorial for you.
+
 #### Warning !
 * Don't use `vncstart` or `vncstop` command twice.
 * First use `vncstart` command and then `vncstop`.
