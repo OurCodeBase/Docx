@@ -4,3 +4,9 @@ This documentation helps you to install lightweight desktop gui for kali linux i
 
 #### Fluxbox
 Fluxbox is very lightweight window manager for linux. You can use it to run gui apps.
+
+#### Upcoming Fractures
+* Styles
+* Themes
+* Wallpapers
+* and many more
