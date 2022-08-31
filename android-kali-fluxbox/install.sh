@@ -15,9 +15,9 @@ enc="\e[0;m"
 echo ""
 echo -e "$Success Installing Requirements...$enc"
 echo ""
-echo -e "$Red   apt is running...$dim"
+echo -e "$Red   apt is running...$enc"
 sudo apt update -y >> /dev/null
-echo -e "$enc"
+echo ""
 echo -e "$Red  installing vncserver...$enc"
 echo ""
 sudo apt install tigervnc-standalone-server -y >> /dev/null
