@@ -16,14 +16,16 @@ echo ""
 echo -e "$Success Installing Requirements...$enc"
 echo ""
 echo -e "$Red   apt is running...$enc"
-sudo apt update -y >> /dev/null
+echo ""
+sudo apt update -y
 echo ""
 echo -e "$Red  installing vncserver...$enc"
 echo ""
-sudo apt install tigervnc-standalone-server -y >> /dev/null
+sudo apt install tigervnc-standalone-server -y
 echo ""
 echo -e "$Red  installing fluxbox...$enc"
-sudo apt install fluxbox -y >> /dev/null
+echo ""
+sudo apt install fluxbox -y
 echo ""
 echo -e "$Red   removing unwanted files...$enc"
 sudo apt remove twm tightvncserver -y
