@@ -28,10 +28,12 @@ echo ""
 sudo apt install fluxbox -y
 echo ""
 echo -e "$Red   removing unwanted files...$enc"
+echo ""
 sudo apt remove twm tightvncserver -y
 sudo apt autoremove -y
 echo ""
 echo -e "$Red   finishing files...$enc"
+echo ""
 curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-fluxbox/vncstart >> /dev/null
 curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-fluxbox/vncstop >> /dev/null
 mv vncst* /usr/bin
