@@ -29,7 +29,7 @@ sudo apt install fluxbox -y
 echo ""
 echo -e "$Red   removing unwanted files...$enc"
 echo ""
-sudo apt remove twm tightvncserver -y
+sudo apt remove twm tcl8.6 tightvncserver -y
 sudo apt autoremove -y
 echo ""
 echo -e "$Red   finishing files...$enc"
