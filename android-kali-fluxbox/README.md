@@ -5,11 +5,8 @@ This documentation helps you to install `lightweight desktop` gui for `kali linu
 #### Fluxbox
 `Fluxbox` is very `lightweight window manager` for `linux`. You can use it to run `gui apps`.
 
-#### Themes
-* [Themes](https://github.com/harsh7i/Docx/tree/main/android-kali-fluxbox/style#hello-world-)
-
-
 #### Upcoming Features
+* [Themes](https://github.com/harsh7i/Docx/tree/main/android-kali-fluxbox/style#hello-world-)
 * Wallpapers
 * and many more
 
