@@ -5,4 +5,4 @@
 ### Upcoming
 * android-ubuntu-gui
 * Documentations for python
-* [fluxbox - window manager](https://github.com/harsh7i/Docx/tree/main/android-kali-fluxbox#hello-world-)
+* [fluxbox-window-manager](https://github.com/harsh7i/Docx/tree/main/android-kali-fluxbox#hello-world-)
