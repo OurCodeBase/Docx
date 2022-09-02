@@ -37,7 +37,7 @@ if [[ "$proc" -lt "${#array[@]}" ]]; then
   echo -e "$enc"
   echo -e "$Success Extracting Files...$enc"
   echo ""
-  tar -xfv ${array[$proc]}.tar
+#  tar -xfv ${array[$proc]}.tar
   echo ""
   echo -e "$Success Removing Unwanted Files...$enc"
 #  rm ${array[$proc]}.tar
