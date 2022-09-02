@@ -1,6 +1,4 @@
-#!/bin/bash
 
-# tar -xfv
 # Variables
 Red="\e[0;31m"
 Green="\e[0;32m"
