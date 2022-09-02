@@ -40,7 +40,8 @@ if [[ "$proc" -lt "${#array[@]}" ]]; then
   echo ""
   echo -e "$Success Removing Unwanted Files...$enc"
   rm ${array[$proc]}$extension
-  rm /usr/share/fluxbox/styles/*
+  rm -rf /usr/share/fluxbox/styles
+  mkdir /usr/share/fluxbox/styles
   echo ""
   echo -e "$Success Installing Dependencies...$dim"
   sudo apt install moreutils -y
