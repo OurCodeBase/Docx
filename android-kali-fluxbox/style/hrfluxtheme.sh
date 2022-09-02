@@ -39,7 +39,7 @@ if [[ "$proc" -lt "${#array[@]}" ]]; then
   tar -xfv ${array[$proc]}
   echo ""
   echo -e "$Success Removing Unwanted Files...$enc"
-  rm ${array[$proc]}$extension
+ # rm ${array[$proc]}$extension
   rm -rf /usr/share/fluxbox/styles
   mkdir /usr/share/fluxbox/styles
   echo ""
