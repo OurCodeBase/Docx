@@ -45,6 +45,7 @@ if [[ "$proc" -lt "${#array[@]}" ]]; then
   mkdir /usr/share/fluxbox/styles
   echo ""
   echo -e "$Success Installing Dependencies...$dim"
+  echo ""
   sudo apt install moreutils -y
   cd $HOME/${array[$proc]}
   chmod +x install.sh
