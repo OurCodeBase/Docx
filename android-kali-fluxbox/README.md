@@ -24,7 +24,7 @@ This documentation helps you to install `lightweight desktop` gui for `kali linu
 * Don't use commands manually just copy and paste to save time.
 
 ```shell
-curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-fluxbox/install-flux.sh && chmod +x install-flux.sh
+wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-fluxbox/install-flux.sh && chmod +x install-flux.sh
 ```
 and then you can run the script using `bash install.sh` or `./install.sh`.
 Now you're ready to start `vnc` using `vncstart` command.
