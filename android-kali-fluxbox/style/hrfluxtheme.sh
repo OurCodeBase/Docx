@@ -33,7 +33,7 @@ if [[ "$proc" -lt "${#array[@]}" ]]; then
   echo ""
   echo -e "$Success Downloading Files...$enc"
   echo ""
-  curl -OL https://harshwebstorelocalhost.on.drv.tw/store/fluxthemes/${array[$proc]}.tar
+  curl -OL https://harshwebstorelocalhost.on.drv.tw/store/fluxthemes/"${array[$proc]}".tar
   echo ""
   echo -e "$Success Extracting Files...$enc"
   tar -xfv ${array[$proc]}
