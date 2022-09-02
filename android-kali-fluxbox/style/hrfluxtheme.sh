@@ -32,14 +32,15 @@ if [[ "$proc" -lt "${#array[@]}" ]]; then
   #statements
   echo ""
   echo -e "$Success Downloading Files...$enc"
-  echo ""
+  echo -e "$dim"
   wget https://harshwebstorelocalhost.on.drv.tw/store/fluxthemes/${array[$proc]}.tar
-  echo ""
+  echo -e "$enc"
   echo -e "$Success Extracting Files...$enc"
-  tar -xfv ${array[$proc]}
+  echo ""
+  tar -xfv ${array[$proc]}.tar
   echo ""
   echo -e "$Success Removing Unwanted Files...$enc"
- # rm ${array[$proc]}$extension
+  rm ${array[$proc]}.tar
   rm -rf /usr/share/fluxbox/styles
   mkdir /usr/share/fluxbox/styles
   echo ""
@@ -49,6 +50,7 @@ if [[ "$proc" -lt "${#array[@]}" ]]; then
   chmod +x install.sh
   echo ""
   echo -e "$Success Running Shell Script...$enc"
+  echo ""
   ./install >> /dev/null
   echo ""
   echo -e "$Success Successfully Installed...$enc"
