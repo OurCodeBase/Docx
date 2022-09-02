@@ -32,6 +32,7 @@ if [[ "$proc" -lt "${#array[@]}" ]]; then
   #statements
   echo ""
   echo -e "$Success Downloading Files...$enc"
+  echo ""
   curl -OL $website${array[$proc]}$extension
   echo ""
   echo -e "$Success Extracting Files...$enc"
