@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # Variables
 Red="\e[0;31m"
