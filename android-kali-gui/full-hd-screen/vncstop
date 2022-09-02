@@ -1,1 +1,0 @@
-vncserver -geometry 1920x1080 -xstartup /usr/bin/xfce4-session -kill :1 >> /dev/null && echo "" && echo -e "\e[0;32m[+] Server successfully closed  \e[0;m" && echo ""
