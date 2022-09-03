@@ -18,7 +18,7 @@ sudo clear
 } && {
   sudo apt update
 } && {
-  sudo apt install tigervnc-standalone-server xfce4 tilda dbus-x11 -y
+  sudo apt install tigervnc-standalone-server xfce4 xfce4-terminal dbus-x11 -y
 } && {
   sudo apt remove twm tcl8.6 xterm -y
   sudo apt autoremove -y
