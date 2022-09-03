@@ -20,7 +20,7 @@ sudo clear
 } && {
   sudo apt install tigervnc-standalone-server xfce4 xfce4-terminal dbus-x11 -y
 } && {
-  sudo apt remove twm tcl8.6 xterm -y
+  sudo apt remove tightvncserver twm tcl8.6 xterm -y
   sudo apt autoremove -y
   sudo apt autoclean -y
 } && {
