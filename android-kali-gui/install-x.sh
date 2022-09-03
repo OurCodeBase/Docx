@@ -20,7 +20,7 @@ sudo clear
 } && {
   sudo apt remove twm tcl8.6 xterm -y
   sudo apt autoremove -y
-  sudo autoclean -y
+  sudo apt autoclean -y
 } && {
   sudo rm /var/lib/dpkg/info/udisks2.postinst
   sudo echo "" >> /var/lib/dpkg/info/udisks2.postinst
