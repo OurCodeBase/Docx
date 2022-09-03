@@ -16,6 +16,8 @@ sudo clear
   echo -e "$Success Installing Dependencies $enc"
   echo ""
 } && {
+  sudo apt update
+} && {
   sudo apt install tigervnc-standalone-server xfce4 tilda dbus-x11 -y
 } && {
   sudo apt remove twm tcl8.6 xterm -y
