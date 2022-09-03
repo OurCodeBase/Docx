@@ -25,7 +25,7 @@ This documentation helps you to install `xfce4` based `kali linux` gui for your 
 * Don't use commands manually just copy and paste to save time.
 
 ```shell
-sudo clear && sudo apt update && sudo apt install tigervnc-standalone-server udisks2 xfce4 tilda dbus-x11 -y && sudo apt remove tightvncserver
+wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/install-x.sh && chmod +x install-x
 ```
 <hr />
 It may take too much time.
@@ -35,22 +35,6 @@ After sometime it will ask you for Keyboard Layout. <br><br>
 Simply `enter` `1` in it and hit the `enter` button.
 
 <hr />
-
-* Next Commands
-
-If you want to run `kali linux` on a large display you can use this command or you can try that second one.
-
-
-* For Large Display
-
-``` shell
-sudo rm /var/lib/dpkg/info/udisks2.postinst && sudo echo "" >> /var/lib/dpkg/info/udisks2.postinst && sudo dpkg --configure -a && sudo apt-mark hold udisks2 && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/full-hd-screen/vncstart && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/full-hd-screen/vncstop && mv vncst* /usr/bin && chmod +x /usr/bin/vncst*
-```
-
-* For Small Display
-```shell
-sudo rm /var/lib/dpkg/info/udisks2.postinst && sudo echo "" >> /var/lib/dpkg/info/udisks2.postinst && sudo dpkg --configure -a && sudo apt-mark hold udisks2 && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/hd-screen/vncstart && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/hd-screen/vncstop && mv vncst* /usr/bin && chmod +x /usr/bin/vncst*
-```
 
 And now whenever we have to start the `vnc` we use `vncstart` command and whenever we have to stop the `vnc` we use `vncstop` command.
 
