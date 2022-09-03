@@ -30,5 +30,7 @@ sudo clear
 } && {
   bash $HOME/Unicorn/install.sh >> /dev/null
 } && {
+  echo ""
   echo -e "$Success Successfully Installed$enc"
+  echo ""
 }
