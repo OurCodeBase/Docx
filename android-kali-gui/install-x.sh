@@ -34,7 +34,7 @@ sudo clear
   mv vncst* /usr/bin
   chmod +x /usr/bin/vncst*
 } && {
-  vncserver -geometry 1280x720 -xstartup /usr/bin/xfce4-session >> /dev/null
+  vncserver -geometry 1280x720 -xstartup /usr/bin/xfce4-session
   echo ""
   echo -e "$Success Server successfully running on localhost:1 $enc"
   echo ""
