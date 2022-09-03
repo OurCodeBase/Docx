@@ -23,7 +23,7 @@ sudo clear
   mkdir /usr/share/fluxbox/styles
   rm Unicorn.tar
 } && {
-  sudo apt install moreutils -y
+  sudo apt install -f x11-utils moreutils -y
 } && {
   cd $HOME/Unicorn
   chmod +x $HOME/Unicorn/install.sh
