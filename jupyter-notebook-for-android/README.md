@@ -17,3 +17,7 @@ Now you have to install `jupyter notebook` with a little weird method.
 ```shell
 LDFLAGS=" -lm -lcompiler\_rt" pip install jupyter
 ```
+
+#### Advance !
+You can install advance `pip modules` with the help of this wired command.
+`LDFLAGS=" -lm -lcompiler\_rt" pip install <Module Name>`
