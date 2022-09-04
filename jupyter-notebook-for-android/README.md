@@ -18,11 +18,14 @@ This is a simple documentation to install `jupyter notebook` on your `android`.
 #### Installation !
 You have to install these packages with `apt install` commamd.
 ```shell
-apt install clang libxml2 libxslt
+apt install clang libxml2 libxslt fftw libzmq freetype libpng pkg-config
 ```
-Now you have to install `jupyter notebook`.
+Now you have to install `jupyter notebook` with this wierd command. I don't know why simple command does not work.
 ```shell
-pip install lxml jupyter
+pip install lxml
+```
+```shell
+LDFLAGS=" -lm -lcompiler\_rt" pip install jupyter
 ```
 
 Your `jupyter notebook` is successfully installed. Now just type `jupyter notebook` command to start it.
