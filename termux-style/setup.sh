@@ -12,7 +12,7 @@ enc="\e[0;m"
 # Variables
 config="$HOME/.configration"
 
-echo -e "$Blue
+echo -e "$dim
 ╦ ╦  ╔═╗  ╦═╗  ╔═╗  ╦ ╦
 ╠═╣  ╠═╣  ╠╦╝  ╚═╗  ╠═╣
 ╩ ╩  ╩ ╩  ╩╚═  ╚═╝  ╩ ╩
@@ -26,7 +26,7 @@ phase2(){
         echo ""
     else
         echo -e "$Success Initializing...Phase2$enc"
-        echo -e "$dim$Blue"
+        echo -e "$dim$dim"
         {
             git clone https://github.com/ohmyzsh/ohmyzsh.git "$HOME/.oh-my-zsh" --depth 1
         }&&{
@@ -78,7 +78,7 @@ phase1(){
     else
         echo ""
         echo -e "$Success Initializing...Phase1$enc"
-        echo -e "$dim$Blue"
+        echo -e "$dim$dim"
         if [[ -d "$HOME/.termux" ]]; then
             #statements
             mv "$HOME/.termux" "$HOME/.termux.bak.$(date +%Y.%m.%d-%H:%M:%S)"
@@ -110,7 +110,7 @@ dependencies(){
     else
         echo ""
         echo -e "$Success Installing Dependencies...$enc"
-        echo -e "$dim$Blue"
+        echo -e "$dim$dim"
         {
             apt-get install zsh git -y
         }&&{
