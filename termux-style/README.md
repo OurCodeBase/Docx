@@ -1,21 +1,12 @@
-This is a advanced tool
-which automatically setup your Termux
-with a Single command.
+### Hello world !
+This is a simple documentation to make your termux stylish with zsh.
 
-### Demo
-<img src="Termux.jpg">
-
-### Commands
+#### Installation !
 ```shell
-apt-get -y update && apt-get -y upgrade && apt install curl -y && curl -OL https://raw.githubusercontent.com/harsh7i/looktu/main/setup.sh && chmod +x * && ls
+apt-get -y update && apt-get -y upgrade && apt install curl -y && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/termux-style/setup.sh && chmod +x * && ls && echo ""
 ```
 ```shell
 sh setup.sh
 ```
 
-### Issue
-If it Stuck Somewhere press *enter*
-Key Only
-
-An Easy Tool all over the world to setup Termux.
-This is a Single tap code which change your Terminal look entirely !
+If you stuck anywhere you have to press `enter` button  simply.
