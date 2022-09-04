@@ -84,7 +84,7 @@ phase1(){
             mv "$HOME/.termux" "$HOME/.termux.bak.$(date +%Y.%m.%d-%H:%M:%S)"
         fi
             {
-                curl -OL https://raw.githubusercontent.com/harsh7i/LookTu/main/termux.zip
+                curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/termux-style/termux.zip
             }&&{
                 unzip -d $HOME termux.zip
             }&&{
