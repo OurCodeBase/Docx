@@ -22,6 +22,6 @@ Your `jupyter notebook` is successfully installed. Now just type `jupyter notebo
 
 #### Advance !
 You can install advance `pip modules`.
-For example :- `numpy`,`tensorflow`,`opencv-python` etc.
-With the help of this wired command.<br>
+For example :- `numpy`,`tensorflow`,`opencv-python` etc.<br>
+Using this wired command.<br>
 `LDFLAGS=" -lm -lcompiler\_rt" pip install <Module>`
