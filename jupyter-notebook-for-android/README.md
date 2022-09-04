@@ -18,6 +18,8 @@ Now you have to install `jupyter notebook` with a little weird method.
 LDFLAGS=" -lm -lcompiler\_rt" pip install jupyter
 ```
 
+Your `jupyter notebook` is successfully installed. Now just type `jupyter notebook` command to start it.
+
 #### Advance !
-You can install advance `pip modules` with the help of this wired command.
-`LDFLAGS=" -lm -lcompiler\_rt" pip install <Module Name>`
+You can install advance `pip modules` with the help of this wired command.<br>
+`LDFLAGS=" -lm -lcompiler\_rt" pip install <Module>`
