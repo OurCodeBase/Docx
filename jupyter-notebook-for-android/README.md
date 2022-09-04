@@ -22,7 +22,7 @@ apt install clang libxml2 libxslt
 ```
 Now you have to install `jupyter notebook`.
 ```shell
-pip install jupyter
+pip install lxml jupyter
 ```
 
 Your `jupyter notebook` is successfully installed. Now just type `jupyter notebook` command to start it.
