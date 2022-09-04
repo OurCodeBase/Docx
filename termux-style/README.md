@@ -1,6 +1,12 @@
 ### Hello world !
 This is a simple documentation to make your termux stylish with zsh.
 
+#### Requirements !
+* Termux
+* Internet Connection
+* Working Terminal
+* Free Time
+
 #### Installation !
 ```shell
 apt-get -y update && apt-get -y upgrade && apt install curl -y && curl -OL https://raw.githubusercontent.com/harsh7i/Docx/main/termux-style/setup.sh && chmod +x * && ls && echo ""
