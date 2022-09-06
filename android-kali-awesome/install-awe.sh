@@ -30,6 +30,7 @@ sudo clear
 } && {
   mv vncst* /usr/bin
   chmod +x /usr/bin/vncst*
+  sed -i 's/terminal = "x-terminal-emulator"/terminal = "tilda"/g' /etc/xdg/awesome/rc.lua
 } && {
   vncserver -geometry 1280x720 -xstartup /usr/bin/awesome
 } && {
