@@ -1,1 +1,14 @@
-vncserver -geometry 1280x720 -xstartup /usr/bin/awesome >> /dev/null && echo "" && echo -e "\e[0;32m[+] Server successfully running on localhost:1 \e[0;m" && echo ""
+
+# Variables
+Success="\e[0;32m[+]"
+enc="\e[0;m"
+bold=$(tput bold)
+normal=$(tput sgr0)
+
+{
+  vncserver -geometry 1280x720 -xstartup /usr/bin/awesome >> /dev/null
+} && {
+  echo ""
+  echo -e "$Success Server successfully running on ${bold}localhost:1${normal} $enc" 
+  echo ""
+}
