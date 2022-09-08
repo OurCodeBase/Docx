@@ -8,6 +8,8 @@ Alert="\e[0;31m[!]"
 Success="\e[0;32m[+]"
 dim="\e[0;2m"
 enc="\e[0;m"
+bold=$(tput bold)
+normal=$(tput sgr0)
 
 sudo clear
 
@@ -35,6 +37,6 @@ sudo clear
   vncserver -geometry 1280x720 -xstartup /usr/bin/awesome
 } && {
   echo ""
-  echo -e "$Success Server successfully running on localhost:1 $enc"
+  echo -e "$Success Server successfully running on ${bold}localhost:1${normal} $enc"
   echo ""
 }
