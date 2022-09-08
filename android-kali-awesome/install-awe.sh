@@ -6,8 +6,8 @@ normal=$(tput sgr0)
 Red="\e[0;31m"
 Green="\e[0;32m"
 Blue="\e[0;34m"
-Alert="${bold}\e[0;31m[!]${normal}"
-Success="${bold}\e[0;32m[+]${normal}"
+Alert="\e[0;31m[!]"
+Success="\e[0;32m[+]"
 dim="\e[0;2m"
 enc="\e[0;m"
 
