@@ -18,7 +18,7 @@ sudo clear
 } && {
   sudo apt update -y
 } && {
-  sudo apt install tigervnc-standalone-server awesome tilda -y
+  sudo apt install gzip tigervnc-standalone-server awesome tilda -y
 } && {
   sudo apt remove tightvncserver curl twm tcl8.6 xterm -y
   sudo apt autoremove -y
