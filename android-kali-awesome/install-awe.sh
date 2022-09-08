@@ -20,7 +20,7 @@ sudo clear
 } && {
   sudo apt update -y
 } && {
-  sudo apt install gzip tigervnc-standalone-server awesome tilda -y
+  sudo apt install gzip tigervnc-standalone-server awesome xfce4-terminal -y
 } && {
   sudo apt remove tightvncserver curl twm tcl8.6 xterm -y
   sudo apt autoremove -y
@@ -32,7 +32,7 @@ sudo clear
 } && {
   mv vncst* /usr/bin
   chmod +x /usr/bin/vncst*
-  sed -i 's/terminal = "x-terminal-emulator"/terminal = "tilda"/g' /etc/xdg/awesome/rc.lua
+  sed -i 's/terminal = "x-terminal-emulator"/terminal = "xfce4-terminal"/g' /etc/xdg/awesome/rc.lua
 } && {
   vncserver -geometry 1280x720 -xstartup /usr/bin/awesome
 } && {
