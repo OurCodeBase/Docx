@@ -22,7 +22,7 @@ sudo clear
 } && {
   sudo apt install tigervnc-standalone-server awesome xfce4-terminal -y
 } && {
-  sudo apt remove tightvncserver curl twm tcl8.6 gzip xterm -y
+  sudo apt remove --allow-remove-essential tightvncserver curl twm tcl8.6 gzip xterm -y
   sudo apt autoremove -y
   sudo apt autoclean -y
 } && {
