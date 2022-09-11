@@ -10,6 +10,7 @@ Alert="\e[0;31m[!]"
 Success="\e[0;32m[+]"
 dim="\e[0;2m"
 enc="\e[0;m"
+lua='/etc/xdg/awesome/rc.lua'
 
 sudo clear
 
@@ -32,6 +33,7 @@ sudo clear
 } && {
   mv vncst* /usr/bin
   chmod +x /usr/bin/vncst*
+  sed -i 's/modkey = "Mod4"/modkey = "Mod1"/g' $lua
   sed -i 's/terminal = "x-terminal-emulator"/terminal = "xfce4-terminal"/g' /etc/xdg/awesome/rc.lua
 } && {
   vncserver -geometry 1280x720 -xstartup /usr/bin/awesome
