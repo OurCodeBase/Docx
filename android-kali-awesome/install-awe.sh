@@ -11,6 +11,7 @@ Success="\e[0;32m[+]"
 dim="\e[0;2m"
 enc="\e[0;m"
 lua='/etc/xdg/awesome/rc.lua'
+defui='/usr/share/awesome/themes/default/theme.lua'
 
 sudo clear
 
