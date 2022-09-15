@@ -20,7 +20,7 @@ sudo clear
 } && {
   sudo apt install tigervnc-standalone-server xfce4 xfce4-terminal dbus-x11 -y
 } && {
-  sudo apt remove tightvncserver twm tcl8.6 xterm -y
+  sudo apt remove curl tightvncserver twm tcl8.6 xterm -y
   sudo apt autoremove -y
   sudo apt autoclean -y
 } && {
@@ -36,7 +36,7 @@ sudo clear
   mv vncst* /usr/bin
   chmod +x /usr/bin/vncst*
 } && {
-  vncserver -geometry 1920x1080 -xstartup /usr/bin/xfce4-session
+  vncserver -geometry 1280x720 -xstartup /usr/bin/xfce4-session
   echo ""
   echo -e "$Success Server successfully running on localhost:1 $enc"
   echo ""
