@@ -15,7 +15,7 @@ sudo clear
 
 {
   echo ""
-  echo -e "$Success Installing Dependencies $enc"
+  echo -e "$Success Installing Dependencies... $enc"
   echo ""
 } && {
   sudo apt update
