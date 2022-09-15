@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Variables
+bold=$(tput bold)
+normal=$(tput sgr0)
 Red="\e[0;31m"
 Green="\e[0;32m"
 Blue="\e[0;34m"
@@ -38,6 +40,6 @@ sudo clear
 } && {
   vncserver -geometry 1280x720 -xstartup /usr/bin/xfce4-session
   echo ""
-  echo -e "$Success Server successfully running on localhost:1 $enc"
+  echo -e "$Success Server successfully running on ${bold}localhost:1${normal}${enc}"
   echo ""
 }
