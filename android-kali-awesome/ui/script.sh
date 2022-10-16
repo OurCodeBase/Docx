@@ -38,11 +38,11 @@ echo ""
 } && {
   if [[ -d "~/theme" ]]; then
     #statements
-    echo -e "${Success} Theme dirs already exists.${enc}"
+    echo -e "$Success Theme dirs already exists.${enc}"
     echo ""
   else
     mkdir ~/theme && ln -s /usr/share/awesome/themes/default/* ~/theme/
-    echo -e "${Success} Theme dirs successfully created.${enc}"
+    echo -e "$Success Theme dirs successfully created.${enc}"
     echo ""
   fi
 } && {
