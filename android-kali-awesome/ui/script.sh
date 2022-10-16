@@ -11,12 +11,17 @@ enc="\e[0;m"
 
 clear
 echo ""
+
 echo -e "${Success} Installing Dependencies...${enc}"
+
 echo ""
+
 sudo apt install compton nitrogen -y
 wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/ui/menubar.lua
 wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/ui/menubar_prev.lua
+
 echo ""
+
 {
   if [[ -f "~/.config/awesome/rc.lua" ]]; then
     #statements
@@ -24,7 +29,7 @@ echo ""
     echo ""
   else
     #statements
-    mkdir ~/.config &> /dev/null && mkdir ~/.config/awesome &> /dev/null
+    mkdir ~/.config > /dev/null 2>&1 && mkdir ~/.config/awesome > /dev/null 2>&1
     cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
     echo -e "${Success} File created successfully.${enc}"
   fi
