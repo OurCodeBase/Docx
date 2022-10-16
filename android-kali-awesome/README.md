@@ -9,7 +9,7 @@ This documentation helps you to install `lightweight desktop` gui for `kali linu
 * Themes
 * Wallpapers
 * Stability
-* UI Design
+* (UI Design)[]
 
 #### Requirements !
 * A `kali linux` installed on `userland` app.
