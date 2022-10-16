@@ -48,4 +48,6 @@ echo ""
   sed -i 's/${menu_prev}/${menu_adv}/g' ~/.config/awesome/rc.lua
   echo -e "\nawful.spawn.with_shell(compton)" >> ~/.config/awesome/rc.lua
   echo -e "\nawful.spawn.with_shell(nitrogen --restore)" >> ~/.config/awesome/rc.lua
+  rm menubar_prev.lua
+  rm menubar.lua
 }
