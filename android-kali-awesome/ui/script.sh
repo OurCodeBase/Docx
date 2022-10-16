@@ -14,6 +14,8 @@ echo ""
 echo -e "${Success} Installing Dependencies...${enc}"
 echo ""
 sudo apt install compton nitrogen -y
+wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/ui/menubar.lua
+wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/ui/menubar_prev.lua
 echo ""
 {
   if [[ -f "~/.config/awesome/rc.lua" ]]; then
