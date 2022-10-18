@@ -36,7 +36,7 @@ sudo clear
   sed -i 's/modkey = "Mod4"/modkey = "Mod1"/g' $lua
   sed -i 's/terminal = "x-terminal-emulator"/terminal = "xfce4-terminal"/g' /etc/xdg/awesome/rc.lua
 } && {
-  vncserver -geometry 1280x720 -xstartup /usr/bin/awesome
+  vncserver -geometry 1024x768 -xstartup /usr/bin/awesome
 } && {
   echo ""
   echo -e "$Success Server successfully running on ${bold}localhost:1${normal} $enc"
