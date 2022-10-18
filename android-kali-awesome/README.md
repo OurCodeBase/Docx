@@ -12,7 +12,7 @@ This documentation helps you to install `lightweight desktop` gui for `kali linu
 * [UI Design](https://github.com/harsh7i/Docx/tree/main/android-kali-awesome/ui#hello-world-)
 
 #### Requirements !
-* A `kali linux` installed on `userland` app.
+* A `kali linux` installed on `UserLand` app.
 * Minimum 1GB free storage.
 * Minimum 512MB of free RAM for better performance.
 * Minimum 200MB of Internet.
