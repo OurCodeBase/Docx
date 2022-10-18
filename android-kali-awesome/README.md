@@ -27,7 +27,6 @@ This documentation helps you to install `lightweight desktop` gui for `kali linu
 ```shell
 bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/install-awe.sh -O -)"
 ```
-and then you can run the script using `bash install-awe.sh` or `./install-awe.sh`.
 Now you're ready to start `vnc` using `vncstart` command.
 
 If you see this <br><br>
