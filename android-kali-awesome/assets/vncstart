@@ -6,7 +6,7 @@ bold=$(tput bold)
 normal=$(tput sgr0)
 
 {
-  vncserver -geometry 1280x720 -xstartup /usr/bin/awesome >> /dev/null
+  vncserver -geometry 1024x768 -xstartup /usr/bin/awesome >> /dev/null
 } && {
   echo ""
   echo -e "$Success Server successfully running on ${bold}localhost:1${normal} $enc" 
