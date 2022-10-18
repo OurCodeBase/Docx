@@ -25,10 +25,8 @@ This documentation helps you to install `xfce4` based `kali linux` gui for your 
 * Don't use commands manually just copy and paste to save time.
 
 ```shell
-wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/install-x.sh && chmod +x install-x.sh
+bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/install-x.sh -O -)"
 ```
-
-Now you can execute the script file with `./install-x.sh` or `bash install-x.sh` commamds.
 
 <hr />
 It may take too much time.
