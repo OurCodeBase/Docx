@@ -17,8 +17,8 @@ echo -e "${Success} Installing Dependencies...${enc}"
 echo ""
 
 sudo apt install compton nitrogen -y
-wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/ui/menubar.lua
-wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/ui/menubar_prev.lua
+wget https://github.com/harsh7i/Docx/blob/main/android-kali-awesome/ui/assets/icons.tar.gz?raw=true
+wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/ui/assets/rc.lua
 
 echo ""
 
@@ -30,7 +30,7 @@ echo ""
   else
     #statements
     mkdir ~/.config > /dev/null 2>&1 && mkdir ~/.config/awesome > /dev/null 2>&1
-    cp /etc/xdg/awesome/rc.lua ~/.config/awesome/
+    cp rc.lua ~/.config/awesome/
     echo -e "${Success} File created successfully.${enc}"
   fi
 } && {
@@ -38,21 +38,23 @@ echo ""
 } && {
   if [[ -d "~/theme" ]]; then
     #statements
-    echo -e "$Success Theme dirs already exists.${enc}"
+    echo -e "${Success} Theme dirs already exists.${enc}"
     echo ""
   else
     mkdir ~/theme && ln -s /usr/share/awesome/themes/default/* ~/theme/
-    echo -e "$Success Theme dirs successfully created.${enc}"
+    echo -e "${Success} Theme dirs successfully created.${enc}"
     echo ""
   fi
 } && {
   echo -e "${Success} Configuration Started...${enc}"
   echo ""
-  menu_adv=`cat menubar.lua`
-  menu_prev=`cat menubar_prev.lua`
-  sed -i 's/${menu_prev}/${menu_adv}/g' ~/.config/awesome/rc.lua
-  echo -e "\nawful.spawn.with_shell(compton)" >> ~/.config/awesome/rc.lua
-  echo -e "\nawful.spawn.with_shell(nitrogen --restore)" >> ~/.config/awesome/rc.lua
-  rm menubar_prev.lua
-  rm menubar.lua
+  rm ~/theme/submenu.png
+  tar -xvf icons.tar.gz && rm icons.tar.gz > /dev/null 2>&1
+  mv submenu.png ~/theme
+  rm ~/theme/titlebar/close*
+  rm ~/theme/titlebar/maxim*
+  rm ~/theme/titlebar/minim*
+  mv *.png ~/theme/titlebar/
+  echo ""
+  echo "${Success} Configuration Successfully Done...${enc}"
 }
