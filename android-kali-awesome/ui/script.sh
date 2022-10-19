@@ -15,7 +15,7 @@ echo ""
 echo -e "${Success} Installing Dependencies...${enc}"
 
 echo ""
-wget https://github.com/harsh7i/Docx/blob/main/android-kali-awesome/ui/assets/icons.tar.gz?raw=true
+wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/ui/assets/icons.tar.gz
 wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/ui/assets/rc.lua
 wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/ui/assets/terminalrc
 
