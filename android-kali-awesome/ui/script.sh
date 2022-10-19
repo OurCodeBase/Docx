@@ -57,5 +57,5 @@ echo ""
   rm ~/theme/titlebar/minim*
   mv *.png ~/theme/titlebar/
   echo ""
-  echo "${Success} Configuration Successfully Done...${enc}"
+  echo -e "${Success} Configuration Successfully Done...${enc}"
 }
