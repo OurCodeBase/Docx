@@ -49,9 +49,9 @@ echo ""
 } && {
   echo -e "${Success} Configuration Started...${enc}"
   echo ""
-  rm ~/theme/submenu.png
+  rm ~/theme/sub*
   tar -xvf icons.tar.gz && rm icons.tar.gz > /dev/null 2>&1
-  mv submenu.png ~/theme
+  mv sub* ~/theme
   rm ~/theme/titlebar/close*
   rm ~/theme/titlebar/maxim*
   rm ~/theme/titlebar/minim*
