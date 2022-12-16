@@ -28,6 +28,10 @@ bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-user
 * Make sure that you have already installed `zsh`.if 
 you don't have you can install from Userland zsh (z shell) section.
 
+<img src="https://github.com/harsh7i/Docx/blob/e5d95643df7e30a294ccf908ff98600dc8c74403/android-userland-style/assets/zsh-syntax.jpg">
+
+To install this, just copy paste and enter to userland terminal.
+
 ```shell
 bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-userland-style/install-zsh-syntax.sh -O -)"
 ```
