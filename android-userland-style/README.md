@@ -35,3 +35,9 @@ To install this, just copy paste and enter to userland terminal.
 ```shell
 bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-userland-style/install-zsh-syntax.sh -O -)"
 ```
+
+#### Userland Oh-My-Zsh
+
+```shell
+bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-userland-style/install-ohmyzsh.sh -O -)"
+```
