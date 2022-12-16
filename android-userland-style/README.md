@@ -25,6 +25,9 @@ bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-user
 
 #### zsh-syntax-highlighting
 
+* Make sure that you have already installed `zsh`.if 
+you don't have you can install from Userland zsh (z shell) section.
+
 ```shell
 bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-userland-style/install-zsh-syntax.sh -O -)"
 ```
