@@ -18,8 +18,8 @@ echo ""
   wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-userland-style/assets/colors.properties
   wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-userland-style/assets/font.ttf
 } && {
-  mv colors.properties ${HOSTDIR}/${TERDIR}/
-  mv font.ttf ${HOSTDIR}/${TERDIR}/
+  mv -f colors.properties ${HOSTDIR}/${TERDIR}/
+  mv -f font.ttf ${HOSTDIR}/${TERDIR}/
   echo ""
   echo -e "${Success} Please restart your userland session !${enc}"
   echo ""
