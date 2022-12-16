@@ -10,9 +10,8 @@ enc="\e[0;m"
 HOSTDIR='/host-rootfs/data/data/tech.ula/files/home'
 TERDIR='/.termux'
 
-echo ""
 {
-  sudo apt update -y && sudo apt install wget -y
+  echo ""
 } && {
   mkdir ${HOSTDIR}/${TERDIR}
   wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-userland-style/assets/colors.properties
