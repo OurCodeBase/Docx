@@ -32,4 +32,8 @@ echo
         * ) echo "Please answer yes or no.";;
     esac
   done
+} && {
+  echo
+  echo -e "${Success} Please restart your userland session.${enc}"
+  echo
 }
