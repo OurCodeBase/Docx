@@ -9,6 +9,16 @@ bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-user
 
 ### Userland zsh (z shell)
 
+* Make sure that your password should be easy.
+* And your username should be `user`.
+
+Otherwise you can face password problems after installing zsh.
+
+<img src="https://github.com/harsh7i/Docx/blob/6473a20fb86a3545d16c463741eae102dc4fe678/android-userland-style/assets/userland-zsh.jpg">
+
+You can install `ohmyzsy` after installing zsh in userland.
+Just copy paste the below code to your userland terminal and enter it.
+
 ```shell
 bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-userland-style/install-zsh.sh -O -)"
 ```
