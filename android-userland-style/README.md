@@ -38,6 +38,13 @@ bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-user
 
 #### Userland Oh-My-Zsh
 
+* Make sure that you have already installed `zsh`.if 
+you don't have you can install from Userland zsh (z shell) section.
+
+<img src="https://github.com/harsh7i/Docx/blob/56dd8fceaa0bba631bd6e222c071c5939717dfa9/android-userland-style/assets/userland-zsh.jpg">
+
+To install this, just copy paste and enter to userland terminal.
+
 ```shell
 bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-userland-style/install-ohmyzsh.sh -O -)"
 ```
