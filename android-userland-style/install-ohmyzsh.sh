@@ -34,7 +34,7 @@ echo
     read -p "Are you currently using zsh-syntax-highlighting ?" yn
     case $yn in
         [Yy]* ) zsh_syntax_on; break;;
-        [Nn]* ) zsh_success; ;;
+        [Nn]* ) zsh_success; break;;
         * ) echo "Please answer yes or no.";;
     esac
   done
