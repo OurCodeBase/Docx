@@ -7,6 +7,7 @@ enc="\e[0;m"
 
 zsh_syntax_on(){
   echo "source $HOME/.zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> "$HOME/.zshrc"
+  zsh_success
 }
 
 zsh_success(){
