@@ -13,7 +13,7 @@ This documentation helps you to improve ui of `awesome`.
 * Follow These Steps
 * Don't use commands manually just copy and paste to save time.
 ```shell
-bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/ui/script.sh -O -)"
+bash -c "$(wget https://raw.githubusercontent.com/ytstrange/Docx/main/android-kali-awesome/ui/script.sh -O -)"
 ```
 
 #### Output !
