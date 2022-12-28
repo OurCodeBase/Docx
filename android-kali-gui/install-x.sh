@@ -31,9 +31,9 @@ sudo clear
   sudo dpkg --configure -a
   sudo apt-mark hold udisks2
 } && {
-  wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/hd-screen/vncstart
+  wget https://raw.githubusercontent.com/ytstrange/Docx/main/android-kali-gui/hd-screen/vncstart
 } && {
-  wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-gui/hd-screen/vncstop
+  wget https://raw.githubusercontent.com/ytstrange/Docx/main/android-kali-gui/hd-screen/vncstop
 } && {
   mv vncst* /usr/bin
   chmod +x /usr/bin/vncst*
