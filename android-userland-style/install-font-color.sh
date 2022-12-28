@@ -9,8 +9,8 @@ TERDIR='/.termux'
   echo ""
 } && {
   mkdir ${HOSTDIR}/${TERDIR}
-  wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-userland-style/assets/colors.properties
-  wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-userland-style/assets/font.ttf
+  wget https://raw.githubusercontent.com/ytstrange/Docx/main/android-userland-style/assets/colors.properties
+  wget https://raw.githubusercontent.com/ytstrange/Docx/main/android-userland-style/assets/font.ttf
 } && {
   mv -f colors.properties ${HOSTDIR}/${TERDIR}/
   mv -f font.ttf ${HOSTDIR}/${TERDIR}/
