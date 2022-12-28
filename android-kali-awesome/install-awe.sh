@@ -27,9 +27,9 @@ sudo clear
   sudo apt autoremove -y
   sudo apt autoclean -y
 } && {
-  wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/assets/vncstart
+  wget https://raw.githubusercontent.com/ytstrange/Docx/main/android-kali-awesome/assets/vncstart
 } && {
-  wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/assets/vncstop
+  wget https://raw.githubusercontent.com/ytstrange/Docx/main/android-kali-awesome/assets/vncstop
 } && {
   mv vncst* /usr/bin
   chmod +x /usr/bin/vncst*
