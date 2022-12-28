@@ -9,7 +9,7 @@ This documentation helps you to install `lightweight desktop` gui for `kali linu
 * Themes
 * Wallpapers
 * Stability
-* [UI Design](https://github.com/harsh7i/Docx/tree/main/android-kali-awesome/ui#hello-world-)
+* [UI Design](https://github.com/ytstrange/Docx/tree/main/android-kali-awesome/ui#hello-world-)
 
 #### Requirements !
 * A `kali linux` installed on `UserLand` app.
@@ -25,12 +25,12 @@ This documentation helps you to install `lightweight desktop` gui for `kali linu
 * Don't use commands manually just copy and paste to save time.
 
 ```shell
-bash -c "$(wget https://raw.githubusercontent.com/harsh7i/Docx/main/android-kali-awesome/install-awe.sh -O -)"
+bash -c "$(wget https://raw.githubusercontent.com/ytstrange/Docx/main/android-kali-awesome/install-awe.sh -O -)"
 ```
 Now you're ready to start `vnc` using `vncstart` command.
 
 If you see this <br><br>
-<img src="https://github.com/harsh7i/Docx/blob/70596062e12361a5d564e06bff551db2a7c577d6/android-kali-gui/assets/vnc-password.jpg"><br>
+<img src="https://github.com/ytstrange/Docx/blob/70596062e12361a5d564e06bff551db2a7c577d6/android-kali-gui/assets/vnc-password.jpg"><br>
 Use any password what you want,
 But in `view-only` password section only use `n` and hit the `enter` button.
 
