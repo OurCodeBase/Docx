@@ -23,6 +23,9 @@ If you stuck anywhere you have to press `enter` button  simply.
 #### Recommended !
 * Shortcut buttons (Only for *Termux*)
 <img src=https://github.com/ytstrange/vim-bootstrap/blob/da34adb04dec35ade0162e5078be60d5f944a056/buttons.jpg>
+
+Code :
+
 ```shell
 wget https://github.com/ytstrange/vim-bootstrap/raw/main/termux.properties && mv -f termux.properties ~/.termux/
 ```
