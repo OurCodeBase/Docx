@@ -1,6 +1,9 @@
 ### Hello world !
 This is a simple documentation to make your termux stylish with zsh.
 
+#### Preview !
+<img src="https://github.com/ytstrange/Docx/blob/2317de8030e1c96ecef0da48cd5cbe29d5fcb43e/termux-style/screenshot.jpg">
+
 #### Upcoming Features !
 * ASCII
 * Improvement in UI
