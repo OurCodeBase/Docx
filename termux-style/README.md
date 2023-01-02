@@ -28,3 +28,12 @@ Code :
 ```shell
 wget https://github.com/ytstrange/vim-bootstrap/raw/main/termux.properties && mv -f termux.properties ~/.termux/
 ```
+
+* Dracula Color (Only for *Termux*)
+
+<img src=https://github.com/ytstrange/Docx/blob/6069d67d500901e0ad9ac8acd102b73e1cd0ba82/android-userland-style/assets/dracula-color.jpg>
+
+Code :
+```shell
+wget https://raw.githubusercontent.com/ytstrange/Docx/main/android-kali-gui/assets/colors.properties && mv -f colors.properties ~/.termux/
+```
