@@ -10,7 +10,7 @@ dim="\e[0;2m"
 enc="\e[0;m"
 
 # Variables
-config="$HOME/.configration"
+config="$HOME/.ui"
 
 echo -e "$dim
 ╦ ╦  ╔═╗  ╦═╗  ╔═╗  ╦ ╦
