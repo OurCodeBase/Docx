@@ -1,6 +1,4 @@
 ### Docx
-* [android-termux-style](https://github.com/strangecode4u/Docx/tree/main/termux-style#hello-world-)
-  <img src="https://github.com/strangecode4u/Docx/blob/1d4f710a93afb5b95f7076ead41cf04faa7b9bba/termux-style/screenshot.jpg">
 
 * [android-kali-gui](https://github.com/strangecode4u/Docx/tree/main/android-kali-gui#hello-world-)
   <img src="android-kali-gui/assets/kali-linux.jpg">
